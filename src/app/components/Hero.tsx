@@ -14,7 +14,7 @@ export default function Hero() {
     return(
     <section className="text-center mt-24">
         <h1 className="text-5xl font-bold mb-6 leading-tight">
-            Scheduling{' '}
+            Scheduling...{' '}
              <span className={"text-blue-600 cool-underline show-underline"+(showLine?'show-underline':' ')}>
                  make it free
             </span>
