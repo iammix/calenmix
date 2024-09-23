@@ -28,7 +28,7 @@ const EventTypeSchema = new mongoose.Schema({
     timestamps: true,
 });
 
-type WeekdayName = 'monday' | 'tuesday' | 'wednesday' | 'thursday' | 'friday' | 'saturday' | 'sunday';
+export type WeekdayName = 'monday' | 'tuesday' | 'wednesday' | 'thursday' | 'friday' | 'saturday' | 'sunday';
 
 type EventType = {
     email: string;
