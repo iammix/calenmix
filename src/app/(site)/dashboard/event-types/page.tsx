@@ -18,12 +18,15 @@ export default async function EventTypesPage() {
         <div>
             <DashboardNav />
             hello from event types
-            {JSON.stringify(eventTypes)}
+            <div>
+                {eventTypes.map(et => (
+                    <div>{et.title}</div>
+                ))}
+            </div>
             <br />
             <Link className="btn-gray" href="/dashboard/event-types/new">
                 <Plus size={16} />
                 New Event Type
-
             </Link>
 
 

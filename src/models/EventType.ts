@@ -3,7 +3,8 @@ import mongoose from 'mongoose';
 
 const FromToSchema = new mongoose.Schema({
     from: String,
-    to: String
+    to: String,
+    active: Boolean,
 })
 
 

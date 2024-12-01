@@ -3,5 +3,6 @@ export type WeekdayName = 'monday' | 'tuesday' | 'wednesday' | 'thursday' | 'fri
 export type FromTo = {
     from: string;
     to: string;
+    active: boolean;
 }
-export type BookingTimes = Record<WeekdayName, FromTo>;
+export type BookingTimes = {} | Record<WeekdayName, FromTo>;
